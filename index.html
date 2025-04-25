@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="header">
+            <div class="navbar">
+                <a href="./index.html">Mid-Xone</a>
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT US</li>
+                    <li>CONTACT</li>
+                    <li>LOG IN</li>
+                </ul>
+            </div>
+            <div class="subTitle">
+                <h1>Welcome Back!</h1>
+            </div>
+        </div>
+        <div class="container">
+            <!-- <div class="signIn">
+            <p>Log in</p>
+            <div class="input">
+                <input type="text" id="user" placeholder="Username">
+                <input type="password" id="pass" placeholder="Password">
+                <a href="#" id="forgetPass">Forgot Password?</a>
+            </div>
+            <div class="btn">
+                <button id="logIn" class="subBtn">Log in</button>
+                <fieldset>
+                    <legend>Or</legend>
+                </fieldset>
+                <button id="signUp" class="subBtn">Sign Up</button>
+            </div>
+        </div> -->
+            <div class="register">
+                <p id="title">Sign Up</p>
+                <!-- This div will show result via JavaScript -->
+                <div class="message"></div>
+                <form id="signupForm">
+                    <div class="input">
+                        <input type="text" name="name" id="name" placeholder="Name">
+                        <p class="remark" id="name_remark"></p>
+                        <input type="text" name="username" id="user" placeholder="Username">
+                        <p class="remark" id="username_remark"></p>
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <p class="remark" id="email_remark"></p>
+                        <input type="password" name="pass" id="pass" placeholder="Create Password">
+                        <p class="remark" id="pass_remark"></p>
+
+                    </div>
+
+                    <div class="btn">
+                        <input type="submit" value="Sign Up" id="submit">
+                        <fieldset>
+                            <legend>Or</legend>
+                        </fieldset>
+                        <button id="logIn" class="subBtn">Log in</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+<script src="./scrpt.js"></script>
+</body>
+
+</html>
